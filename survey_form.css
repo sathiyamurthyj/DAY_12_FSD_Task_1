@@ -1,0 +1,30 @@
+.required::after {
+    content: " *";
+    color: red;
+}
+
+.required {
+    font-weight: bold;
+}
+
+.form-inline {
+    display: inline-block;
+}
+
+.checked {
+    color: orange;
+}
+
+.text-wrap {
+    width: 10rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+#resizeText {
+    resize: both;
+    overflow: auto;
+    height: 100px;
+}

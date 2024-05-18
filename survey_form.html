@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./survey_form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form>
+            <div>
+                <label class="required">Name</label>
+                <br>
+                <div class="form-inline">
+                    <input type="text" name="first">
+                    <br>
+                    <label for="first">First</label>
+                </div>
+                <div class="form-inline">
+                    <input type="text" name="last">
+                    <br>
+                    <label for="last">Last</label>
+                </div>            
+            </div>
+            <br>
+            <div>
+                <div>
+                    <label for="email" class="required">Email</label>
+                    <br>
+                    <input type="email" name="email" size="46">                
+                </div>         
+            </div>
+            <br>
+            <div>
+                <label class="required">Your Experience</label>
+                <div>            
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>  
+                </div>      
+                <p>Overall, how would you rate your experience with us?</p>                            
+            </div>
+            <br>
+            <div>
+                <label class="required">How satisfied are you with</label>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="text-center fw-normal">Very Unsatisfied</th>
+                            <th class="text-center fw-normal">Unsatisfied</th>
+                            <th class="text-center fw-normal">Neutral</th>
+                            <th class="text-center fw-normal">Satisfied</th>
+                            <th class="text-center fw-normal">Very Satisfied</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-wrap">Purchase</th>
+                            <td class="text-center">
+                                <input type="radio" name="purchaserating">
+                                <label for="purchaserating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="purchaserating">
+                                <label for="purchaserating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="purchaserating">
+                                <label for="purchaserating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="purchaserating">
+                                <label for="purchaserating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="purchaserating">
+                                <label for="purchaserating"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-wrap">Service</th>
+                            <td class="text-center">
+                                <input type="radio" name="servicerating">
+                                <label for="servicerating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="servicerating">
+                                <label for="servicerating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="servicerating">
+                                <label for="servicerating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="servicerating">
+                                <label for="servicerating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="servicerating">
+                                <label for="servicerating"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-wrap">Company Overall</th>
+                            <td class="text-center">
+                                <input type="radio" name="overallrating">
+                                <label for="overallrating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="overallrating">
+                                <label for="overallrating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="overallrating">
+                                <label for="overallrating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="overallrating">
+                                <label for="overallrating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="overallrating">
+                                <label for="overallrating"></label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>                                 
+            </div>  
+            <br>
+            <div>
+                <label class="required">How likely are you to</label>
+                <table class="table table-striped"> 
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="text-center fw-normal">Very Unlikely</th>
+                            <th class="text-center fw-normal">Unlikely</th>
+                            <th class="text-center fw-normal">Neutral</th>
+                            <th class="text-center fw-normal">Likely</th>
+                            <th class="text-center fw-normal">Very Likely</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-wrap">Buy from us again</th>
+                            <td class="text-center">
+                                <input type="radio" name="buyAgainRating">
+                                <label for="buyAgainRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="buyAgainRating">
+                                <label for="buyAgainRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="buyAgainRating">
+                                <label for="buyAgainRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="buyAgainRating">
+                                <label for="buyAgainRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="buyAgainRating">
+                                <label for="buyAgainRating"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-wrap">Recommend our product to others</th>
+                            <td class="text-center">
+                                <input type="radio" name="recommendProductRating">
+                                <label for="recommendProductRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendProductRating">
+                                <label for="recommendProductRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendProductRating">
+                                <label for="recommendProductRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendProductRating">
+                                <label for="recommendProductRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendProductRating">
+                                <label for="recommendProductRating"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-wrap">Recommend our company to others</th>
+                            <td class="text-center">
+                                <input type="radio" name="recommendCompanyRating">
+                                <label for="recommendCompanyRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendCompanyRating">
+                                <label for="recommendCompanyRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendCompanyRating">
+                                <label for="recommendCompanyRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendCompanyRating">
+                                <label for="recommendCompanyRating"></label>
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="recommendCompanyRating">
+                                <label for="recommendCompanyRating"></label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> 
+            <br>
+            <div>
+                <label for="comment"><span>Additional comments or suggestions</span></label>
+                <br>
+                <textarea name="comment" class="form-control" rows="4"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>    
+        </form>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/2b7af5024f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"></script>
+    
+</body>
+</html>
